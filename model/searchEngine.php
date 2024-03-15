@@ -11,16 +11,14 @@ if ($result->num_rows > 0) {
         ?>
         
         <tr>
-            <td style="text-align : center;">
-                <?= $row['Guest_ID'] ?>
-            </td>
+            <td style="text-align : center;"><?= $row['Guest_ID'] ?>
             <td>
                 <?= $row['Fname'] ?>
             </td>
-       
+            </td>
 
-      
             <td class="d-grid">
+                
                 <button type="button" class="btn btn-sm btn-block
             btn-link" data-bs-toggle="modal" data-bs-target="#show-details">
                     show detail</button>

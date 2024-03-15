@@ -44,13 +44,14 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Dashboard</a>
+                        <a class="nav-link" href="./index.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./registration.php">Registration</a>
                     </li>
                    
                 </ul>
+                <span class="navbar-text col text-center">Welcome!!Choice your Room</span>
                 <form class="d-flex">
                     <input onkeyup="search(this.value)" class="form-control " type="text"
                         placeholder="Search anything here">
@@ -62,52 +63,14 @@
     </nav>
     
     <div class="container-fluid mb-5">
-        <p class="h1 mt-2">Guest Manangement</p>
-        <p class="mt-2">You can see the guest below</p>
+        <p class="h1 mt-2">Room Manangement</p>
+        <p class="mt-2">You can choice your Room Above</p>
         <div class="card mt-2">
-            <div class="card-header" style="text-align : center;">List of guest</div>
+            <div class="card-header" style="text-align : center;">List of Room</div>
             <div class="card-body"> <strong> </strong>
-                <table class="table table-bordered table-hover" ;>
-                    <thead>
-                        <tr>
-                            <th width="100" style="text-align : center;">Guest Id</th>
-                            <th style="text-align: left; padding-left: 10px">Name</th>
-                            <th width="130">Details</th>
-                        </tr>
-                        <div class="modal" id="show-details">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-
-                                
-                                    <div class="modal-header">
-                                        <h4 class="modal-title">guest Details</h4>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                    </div>
-
-                                  
-                                    <div class="modal-body">
-                                        Modal body..
-                                    </div>
-
-                                 
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger"
-                                            data-bs-dismiss="modal">Close</button>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </thead>
-                    <tbody id="results">
-            </div>
+               
         </div>
-        <div style="display: none;">
-            </tbody>
-            </table>
-        </div>
-        <div class="card-footer">Those are all the guest..</div>
+        <div class="card-footer">This are all the List of Rooms</div>
     </div>
    
 
